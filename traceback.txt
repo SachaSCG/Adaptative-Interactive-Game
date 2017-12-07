@@ -1,0 +1,23 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 73, in script
+    if lives=5:
+SyntaxError: invalid syntax (game/script.rpy, line 73)
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 73, in script
+    if lives=5:
+  File "C:\Users\Alex\Desktop\renpy-6.99.13-sdk\renpy\ast.py", line 1681, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\Alex\Desktop\renpy-6.99.13-sdk\renpy\python.py", line 1793, in py_eval
+    code = py_compile(code, 'eval')
+  File "C:\Users\Alex\Desktop\renpy-6.99.13-sdk\renpy\python.py", line 597, in py_compile
+    raise e
+SyntaxError: invalid syntax (game/script.rpy, line 73)
+
+Windows-7-6.1.7601-SP1
+Ren'Py 6.99.13.2919
+Math Quiz! 1.0
